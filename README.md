@@ -11,31 +11,57 @@ YingYang is a desktop puzzle game implemented in Java Swing, inspired by the cla
 - **Error Feedback**: Instant feedback on invalid moves or puzzle states.
 - **Modern Look-and-Feel**: Uses the Nimbus theme for a polished appearance.
 
-## Getting Started
+## Installation
 
 ### Prerequisites
 
 - **Java 8 or later** must be installed on your system.
 
-### Running the Game
+#### Windows
 
-1. **Clone this repository:**
+1. **Install Java**  
+   Download and install the latest **Java JDK** if you don't have it.
+
+2. **Clone the Repository**
+   ```cmd
+   git clone https://github.com/HoomanMoradnia/YingYang.git
+   cd YingYang
+   ```
+
+3. **Compile the Source Files**
+   ```cmd
+   javac *.java
+   ```
+
+4. **Run the Game**
+   ```cmd
+   java PageOne
+   ```
+
+#### Linux
+
+1. **Install Java**  
+   Use your package manager to install Java, for example:
+   ```bash
+   sudo apt-get update
+   sudo apt-get install openjdk-11-jdk
+   ```
+
+2. **Clone the Repository**
    ```bash
    git clone https://github.com/HoomanMoradnia/YingYang.git
    cd YingYang
    ```
 
-2. **Compile the Source Files:**
+3. **Compile the Source Files**
    ```bash
    javac *.java
    ```
 
-3. **Run the Game:**
+4. **Run the Game**
    ```bash
    java PageOne
    ```
-
-   This will launch the initial configuration window where you can set up the grid size and start a new game.
 
 ## Gameplay
 
